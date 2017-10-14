@@ -1,0 +1,124 @@
+read config from: /usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc
+read config from: /usr/local/etc/mercurial/hgrc
+read config from: /etc/mercurial/hgrc
+read config from: /home/phynex/.hgrc
+read config from: /home/phynex/.config/hg/hgrc
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:4: merge-tools.kdiff3.args=--auto --L1 base --L2 local --L3 other $base $local $other -o $output
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:5: merge-tools.kdiff3.regkey=Software\KDiff3
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:6: merge-tools.kdiff3.regkeyalt=Software\Wow6432Node\KDiff3
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:7: merge-tools.kdiff3.regappend=\kdiff3.exe
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:8: merge-tools.kdiff3.fixeol=True
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:9: merge-tools.kdiff3.gui=True
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:10: merge-tools.kdiff3.diffargs=--L1 $plabel1 --L2 $clabel $parent $child
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:12: merge-tools.gvimdiff.args=--nofork -d -g -O $local $other $base
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:13: merge-tools.gvimdiff.regkey=Software\Vim\GVim
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:14: merge-tools.gvimdiff.regkeyalt=Software\Wow6432Node\Vim\GVim
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:15: merge-tools.gvimdiff.regname=path
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:16: merge-tools.gvimdiff.priority=-9
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:17: merge-tools.gvimdiff.diffargs=--nofork -d -g -O $parent $child
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:19: merge-tools.vimdiff.args=$local $other $base -c 'redraw | echomsg "hg merge conflict, type \":cq\" to abort vimdiff"'
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:20: merge-tools.vimdiff.check=changed
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:21: merge-tools.vimdiff.priority=-10
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:23: merge-tools.merge.check=conflicts
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:24: merge-tools.merge.priority=-100
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:26: merge-tools.gpyfm.gui=True
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:28: merge-tools.meld.gui=True
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:29: merge-tools.meld.args=--label='local' $local --label='merged' $base --label='other' $other -o $output
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:30: merge-tools.meld.check=changed
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:31: merge-tools.meld.diffargs=-a --label=$plabel1 $parent --label=$clabel $child
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:33: merge-tools.tkdiff.args=$local $other -a $base -o $output
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:34: merge-tools.tkdiff.gui=True
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:35: merge-tools.tkdiff.priority=-8
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:36: merge-tools.tkdiff.diffargs=-L $plabel1 $parent -L $clabel $child
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:38: merge-tools.xxdiff.args=--show-merged-pane --exit-with-merge-status --title1 local --title2 base --title3 other --merged-filename $output --merge $local $base $other
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:39: merge-tools.xxdiff.gui=True
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:40: merge-tools.xxdiff.priority=-8
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:41: merge-tools.xxdiff.diffargs=--title1 $plabel1 $parent --title2 $clabel $child
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:43: merge-tools.diffmerge.regkey=Software\SourceGear\SourceGear DiffMerge\
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:44: merge-tools.diffmerge.regkeyalt=Software\Wow6432Node\SourceGear\SourceGear DiffMerge\
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:45: merge-tools.diffmerge.regname=Location
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:46: merge-tools.diffmerge.priority=-7
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:47: merge-tools.diffmerge.args=-nosplash -merge -title1=local -title2=merged -title3=other $local $base $other -result=$output
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:48: merge-tools.diffmerge.check=changed
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:49: merge-tools.diffmerge.gui=True
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:50: merge-tools.diffmerge.diffargs=--nosplash --title1=$plabel1 --title2=$clabel $parent $child
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:52: merge-tools.p4merge.args=$base $local $other $output
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:53: merge-tools.p4merge.regkey=Software\Perforce\Environment
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:54: merge-tools.p4merge.regkeyalt=Software\Wow6432Node\Perforce\Environment
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:55: merge-tools.p4merge.regname=P4INSTROOT
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:56: merge-tools.p4merge.regappend=\p4merge.exe
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:57: merge-tools.p4merge.gui=True
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:58: merge-tools.p4merge.priority=-8
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:59: merge-tools.p4merge.diffargs=$parent $child
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:61: merge-tools.p4mergeosx.executable=/Applications/p4merge.app/Contents/MacOS/p4merge
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:62: merge-tools.p4mergeosx.args=$base $local $other $output
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:63: merge-tools.p4mergeosx.gui=True
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:64: merge-tools.p4mergeosx.priority=-8
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:65: merge-tools.p4mergeosx.diffargs=$parent $child
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:67: merge-tools.tortoisemerge.args=/base:$base /mine:$local /theirs:$other /merged:$output
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:68: merge-tools.tortoisemerge.regkey=Software\TortoiseSVN
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:69: merge-tools.tortoisemerge.regkeyalt=Software\Wow6432Node\TortoiseSVN
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:70: merge-tools.tortoisemerge.check=changed
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:71: merge-tools.tortoisemerge.gui=True
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:72: merge-tools.tortoisemerge.priority=-8
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:73: merge-tools.tortoisemerge.diffargs=/base:$parent /mine:$child /basename:$plabel1 /minename:$clabel
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:75: merge-tools.ecmerge.args=$base $local $other --mode=merge3 --title0=base --title1=local --title2=other --to=$output
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:76: merge-tools.ecmerge.regkey=Software\Elli\xc3\xa9 Computing\Merge
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:77: merge-tools.ecmerge.regkeyalt=Software\Wow6432Node\Elli\xc3\xa9 Computing\Merge
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:78: merge-tools.ecmerge.gui=True
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:79: merge-tools.ecmerge.diffargs=$parent $child --mode=diff2 --title1=$plabel1 --title2=$clabel
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:83: merge-tools.editmerge.args=$output
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:84: merge-tools.editmerge.check=changed
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:85: merge-tools.editmerge.premerge=keep
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:87: merge-tools.filemerge.executable=/Developer/Applications/Utilities/FileMerge.app/Contents/MacOS/FileMerge
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:88: merge-tools.filemerge.args=-left $other -right $local -ancestor $base -merge $output
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:89: merge-tools.filemerge.gui=True
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:91: merge-tools.filemergexcode.executable=/Applications/Xcode.app/Contents/Applications/FileMerge.app/Contents/MacOS/FileMerge
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:92: merge-tools.filemergexcode.args=-left $other -right $local -ancestor $base -merge $output
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:93: merge-tools.filemergexcode.gui=True
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:96: merge-tools.beyondcompare3.args=$local $other $base $output /ro /lefttitle=local /centertitle=base /righttitle=other /automerge /reviewconflicts /solo
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:97: merge-tools.beyondcompare3.regkey=Software\Scooter Software\Beyond Compare 3
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:98: merge-tools.beyondcompare3.regname=ExePath
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:99: merge-tools.beyondcompare3.gui=True
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:100: merge-tools.beyondcompare3.priority=-2
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:101: merge-tools.beyondcompare3.diffargs=/lro /lefttitle=$plabel1 /righttitle=$clabel /solo /expandall $parent $child
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:104: merge-tools.bcompare.args=$local $other $base -mergeoutput=$output -ro -lefttitle=parent1 -centertitle=base -righttitle=parent2 -outputtitle=merged -automerge -reviewconflicts -solo
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:105: merge-tools.bcompare.gui=True
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:106: merge-tools.bcompare.priority=-1
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:107: merge-tools.bcompare.diffargs=-lro -lefttitle=$plabel1 -righttitle=$clabel -solo -expandall $parent $child
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:110: merge-tools.bcomposx.executable=/Applications/Beyond Compare.app/Contents/MacOS/bcomp
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:111: merge-tools.bcomposx.args=$local $other $base -mergeoutput=$output -ro -lefttitle=parent1 -centertitle=base -righttitle=parent2 -outputtitle=merged -automerge -reviewconflicts -solo
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:112: merge-tools.bcomposx.gui=True
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:113: merge-tools.bcomposx.priority=-1
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:114: merge-tools.bcomposx.diffargs=-lro -lefttitle=$plabel1 -righttitle=$clabel -solo -expandall $parent $child
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:116: merge-tools.winmerge.args=/e /x /wl /ub /dl other /dr local $other $local $output
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:117: merge-tools.winmerge.regkey=Software\Thingamahoochie\WinMerge
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:118: merge-tools.winmerge.regkeyalt=Software\Wow6432Node\Thingamahoochie\WinMerge\
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:119: merge-tools.winmerge.regname=Executable
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:120: merge-tools.winmerge.check=changed
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:121: merge-tools.winmerge.gui=True
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:122: merge-tools.winmerge.priority=-10
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:123: merge-tools.winmerge.diffargs=/r /e /x /ub /wl /dl $plabel1 /dr $clabel $parent $child
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:125: merge-tools.araxis.regkey=SOFTWARE\Classes\TypeLib\{46799e0a-7bd1-4330-911c-9660bb964ea2}\7.0\HELPDIR
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:126: merge-tools.araxis.regappend=\ConsoleCompare.exe
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:127: merge-tools.araxis.priority=-2
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:128: merge-tools.araxis.args=/3 /a2 /wait /merge /title1:"Other" /title2:"Base" /title3:"Local :"$local $other $base $local $output
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:129: merge-tools.araxis.checkconflict=True
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:130: merge-tools.araxis.binary=True
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:131: merge-tools.araxis.gui=True
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:132: merge-tools.araxis.diffargs=/2 /wait /title1:$plabel1 /title2:$clabel $parent $child
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:134: merge-tools.diffuse.priority=-3
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:135: merge-tools.diffuse.args=$local $base $other
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:136: merge-tools.diffuse.gui=True
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:137: merge-tools.diffuse.diffargs=$parent $child
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:139: merge-tools.UltraCompare.regkey=Software\Microsoft\Windows\CurrentVersion\App Paths\UC.exe
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:140: merge-tools.UltraCompare.regkeyalt=Software\Wow6432Node\Microsoft\Windows\CurrentVersion\App Paths\UC.exe
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:141: merge-tools.UltraCompare.args=$base $local $other -title1 base -title3 other
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:142: merge-tools.UltraCompare.priority=-2
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:143: merge-tools.UltraCompare.gui=True
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:144: merge-tools.UltraCompare.binary=True
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:145: merge-tools.UltraCompare.check=conflicts,changed
+/usr/local/lib64/python2.7/site-packages/mercurial/default.d/mergetools.rc:146: merge-tools.UltraCompare.diffargs=$child $parent -title1 $clabel -title2 $plabel1
+--verbose: ui.verbose=False
+--debug: ui.debug=True
+--quiet: ui.quiet=False
